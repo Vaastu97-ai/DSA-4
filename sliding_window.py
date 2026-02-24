@@ -13,3 +13,8 @@ def max_sum_of_subarray(arr , k):
         max_sum = max(max_sum , window_sum)
 
     return max_sum
+
+arr = list(map(int , input("Enter the array elements :").split()))
+print("Entered array is :" , arr)
+k = int(input("Enter the size of the window :"))
+print("The maximum sum is :" ,max_sum_of_subarray(arr , k))
